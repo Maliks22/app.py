@@ -6,6 +6,7 @@ st.set_page_config(page_title="Fraud Detector & Due Diligence", layout="wide", i
 
 st.title("🔍 Alat Analisis Beneish M-Score & Audit Lapangan")
 st.markdown("Masukkan data keuangan untuk menghitung risiko manipulasi laba dan dapatkan daftar pertanyaan verifikasi otomatis.")
+st.markdown("Beneish M-Score Model merupakan metode pendeteksian fraud yang dirumuskan berdasarkan pengujian data keseluruhan dari Accounting and Auditing Enforcement Releases (AAERs) yang diterbitkan oleh SEC selama periode 1982 hingga 1992. Dalam melakukan deteksi fraud, indikasi yang digunakan adalah nilai -2.22. Jika hasil M-Score menghasilkan skor lebih besar dari -2.22, maka perusahaan terindikasi melakukan fraud (Aghghaleh et al., 2016).")
 
 # --- MAIN CONTENT: INPUT DATA (SIDE-BY-SIDE) ---
 with st.form("input_form"):
